@@ -6,6 +6,7 @@
     <title>repl.it</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
 
   <body>
@@ -15,7 +16,7 @@
          <div class="box1">
           <h1> How to make Basbousa! (Ray's Way)
           </h1>
-        </div>
+         </div>
         <img id="image" src="https://i.imgur.com/NGLhZE0.jpg">
         <p id="descrip">
           Basbousa is a North African/ Middle Eastern dessert that is adopted by many countries in those regions. Each country may have its twist added to it to make it unique. It's delicious and sweet enough to satisfy any sweet tooth!
@@ -76,7 +77,7 @@
     </div>
     
     <script src="index.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    
   </body>
   
 </html>
