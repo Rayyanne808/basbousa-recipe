@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="container">
+     <header>
+        <h1>
+          How to make Basbousa! (Ray's Way)
+        </h1>
+        <img src="https://i.imgur.com/NGLhZE0.jpg">
+        <p>
+          Basbousa is a North African/ Middle Eastern dessert that is adopted by many countries in those regions. Each country may have its twist added to it to make it unique. It's delicious and sweet enough to satisfy any sweet tooth!
+        </p>
+    </header>
+    
+    <section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+        <h2>
+          Ingredients <i class="fa fa-book" aria-hidden="true"></i>
+        </h2>
+        <ul>
+          <li> 2 cups of Semolina flour (add about 1/4 cup All-purpose flour if it looked too watery) </li>
+          <li> &frac34; cup of sugar </li>
+          <li> 1 teaspoon of baking powder </li>
+          <li> 1 teaspoon of vanilla extract </li>
+          <li> &frac12; teaspoon of salt </li>
+          <li> &frac12; cup of coconut (Optional) </li>
+          <li> 1 cup of yogurt </li>
+          <li> 1 cup of melted butter </li>
+          <li> 2 medium-sized eggs </li>
+        </ul>
+        <h3>
+          Syrup
+        </h3>
+        <ul>
+          <li> 1 cup of sugar </li>
+          <li> 1 cup of water </li>
+          <li> 1 teaspoon of vanilla extract (or rose water) </li>
+          <li> 1 cinnamon stick </li>
+          <li> 1 teaspoon of lemon/lime (Optional) </li>
+        </ul>
+    </section>
+    
+    <section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+        <h2>
+          Preparation <i class="fa fa-check" aria-hidden="true"></i>
+        </h2>
+        <ol>
+          <li> Pre-heat the oven at 185 degrees C. </li>
+          <li> Mix the dry ingredients in a bow (semolina, sugar, coconut, baking powder and salt). </li>
+          <li> Add the melted butter to the dry ingredients until mixed well then add the yogurt. </li>
+          <li> Beat the eggs then add vanilla to it and all together add them to the mix and stir until it becomes homogeneous. </li>
+          <li> Place the mixture in a  buttered oven dish and bake for 40 minutes until its golden brown. </li>
+          <li> Place syrup ingredients in a pan and bring to boil then remove from heat to cool. Then add it to the basbousa after fully baked in the oven (while warm) the leave the Basbousa to cool. </li>
+          <li> Enjoy with tea or coffee! </li>
+        </ol>
+    </section>
+    
+    <footer>
+        <p>
+          Copyright Rayan 2019
+        </p>
+    </footer>
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+  
+</html>
