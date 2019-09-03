@@ -31,4 +31,4 @@ function preparationNormal() {
          //   {
           //      document.getElementById(section.id).firstElementChild.firstElementChild.style.fontSize = '100%'
        //     }
-      //  } 
+      //  }
