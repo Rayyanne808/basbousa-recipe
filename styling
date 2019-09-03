@@ -1,33 +1,76 @@
 body {
-  font-family: Sans-Serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: DarkSlateGrey;
 }
 
 #container {
   width: 60%;
   margin: auto;
+  background-color: rgb(252, 238, 251);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+div.box {
+  background:rgb(236, 239, 208, 0.4);//RGB color with last part as opacity
+  width: 100%;
+  margin: 0 -9999rem; /* add back negative margin value */
+  padding: 0.25rem 9999rem;
 }
 
 h1 {
+  //overflow-x: hidden;
   font-size: 300%;
   text-align: center;
 }
 
+header p {
+  text-align: center;
+}
+
 h1, h2, h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: MediumVioletRed;
   font-weight: 100;
   text-transform: uppercase;
 }
 
-img {
+img {  
   width: 100%;
+  transition: width 1s;
 }
+
+img:hover {
+  width: 80%;
+}
+
+.image {
+	//position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 90%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+	//margin: auto;
+	background-color: rgb(243, 245, 231);
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  }
 
 footer p {
   background-color: MediumVioletRed;
+  width: 100%;
   color: white;
   text-align: center;
+  margin: 0 -9999rem;
   margin-top: 70px;
+  padding: 0.25rem 9999rem;
   padding-top: 15px;
   padding-bottom: 15px;
 }
