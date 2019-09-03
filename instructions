@@ -7,28 +7,33 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="index.css" rel="stylesheet" type="text/css" />
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
   </head>
 
   <body>
     <div id="container">
-      
        <header>
-         <div class="box1">
+         <div class="box">
           <h1> How to make Basbousa! (Ray's Way)
           </h1>
-         </div>
-        <img id="image" src="https://i.imgur.com/NGLhZE0.jpg">
-        <p id="descrip">
+        </div>
+        
+        <img  src="https://i.imgur.com/NGLhZE0.jpg" class="image">
+        <div>
+        <p class="descrip">
           Basbousa is a North African/ Middle Eastern dessert that is adopted by many countries in those regions. Each country may have its twist added to it to make it unique. It's delicious and sweet enough to satisfy any sweet tooth!
-        </p>  
+        </p>
+        </div>  
       </header>
       
       <section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
-          <div class="box2">
-          <h2>
+          <div>
+          <h2 class="descrip">
             Ingredients <i class="fa fa-book" aria-hidden="true"></i>
           </h2>
-          <ul>
+          <ul class="descrip">
             <li> 2 cups of Semolina flour (add about 1/4 cup All-purpose flour if it looked too watery) </li>
             <li> &frac34; cup of sugar </li>
             <li> 1 teaspoon of baking powder </li>
@@ -39,10 +44,10 @@
             <li> 1 cup of melted butter </li>
             <li> 2 medium-sized eggs </li>
           </ul>
-          <h3>
+          <h3 class="descrip">
             Syrup
           </h3>
-          <ul>
+          <ul class="descrip">
             <li> 1 cup of sugar </li>
             <li> 1 cup of water </li>
             <li> 1 teaspoon of vanilla extract (or rose water) </li>
@@ -53,11 +58,11 @@
       </section>
       
       <section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
-          <div class="box3">
-          <h2>
+          <div>
+          <h2 class="descrip">
             Preparation <i class="fa fa-check" aria-hidden="true"></i>
           </h2>
-          <ol>
+          <ol class="descrip">
             <li> Pre-heat the oven at 185 degrees C. </li>
             <li> Mix the dry ingredients in a bow (semolina, sugar, coconut, baking powder and salt). </li>
             <li> Add the melted butter to the dry ingredients until mixed well then add the yogurt. </li>
