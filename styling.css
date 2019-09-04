@@ -14,10 +14,8 @@ body {
 }
 
 div.box {
-  background:rgb(236, 239, 208, 0.4);//RGB color with last part as opacity
+  background:rgb(236, 239, 208, 0.4);
   width: 100%;
-  margin: 0 -9999rem; /* add back negative margin value */
-  padding: 0.25rem 9999rem;
 }
 
 h1 {
@@ -47,20 +45,18 @@ img:hover {
 }
 
 .image {
-	//position: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-	width: 90%;
+  width: 90%;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
-	//margin: auto;
-	background-color: rgb(243, 245, 231);
-	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
-	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  background-color: rgb(243, 245, 231);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
   }
 
 footer p {
@@ -68,9 +64,7 @@ footer p {
   width: 100%;
   color: white;
   text-align: center;
-  margin: 0 -9999rem;
   margin-top: 70px;
-  padding: 0.25rem 9999rem;
   padding-top: 15px;
   padding-bottom: 15px;
 }
